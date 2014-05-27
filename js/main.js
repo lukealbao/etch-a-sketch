@@ -10,7 +10,7 @@
 
 // Project gameboard.
 var newBoard = function() {
-    var width = parseInt(prompt("How wide a board?"));
+    var width = parseInt(prompt("How wide a board? [Under 20 to be safe.]"));
     var blockWidth = (Math.ceil($("#game-board").width() - 1) / width); 
     for (i = 1; i <= Math.pow(width, 2); i += 1) {
         $("#game-board")
