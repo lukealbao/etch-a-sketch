@@ -1,0 +1,54 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#game-board {
+    width: 600px;
+    height: 600px;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 20px auto;
+    padding: 1px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    overflow: hidden;
+}
+.nav {
+    width: 600px;
+    margin: 0 auto;
+}
+.nav *{
+    display: inline-block;
+    margin-left: 3em;
+    line-height: 3em;
+}
+.nav input{
+    margin-left: 3em;
+}
+.block {
+    float: left;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+hr{
+    border-color: #cce;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
