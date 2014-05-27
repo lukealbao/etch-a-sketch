@@ -7,6 +7,7 @@
 
 ***************************************/
 
+
 // Project gameboard.
 var newBoard = function() {
     var width = parseInt(prompt("How wide a board?"));
@@ -19,20 +20,7 @@ var newBoard = function() {
          $(".block").height(blockWidth);
     $('#traditional').click()
 };
-newBoard()
 
-/*(function() {
-    var width = parseInt(prompt("How wide a board?"));
-    var blockWidth = (Math.ceil($("#game-board").width() - 1) / width); 
-    for (i = 1; i <= Math.pow(width, 2); i += 1) {
-        $("#game-board")
-        .append("<div class='block' style='background-color: #999'></div>");
-         };
-         $(".block").width(blockWidth);
-         $(".block").height(blockWidth);
-            
-})();*/
-        
 // Hover Handlers
 var hoverHandlers = {
     random: function() {
@@ -70,3 +58,4 @@ var setColorScheme = function(event) {
 
 $(".nav input").on("click", setColorScheme);
 $("#create").on("click", newBoard);
+newBoard();
